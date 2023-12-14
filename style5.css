@@ -1,0 +1,122 @@
+body {
+    background-image: url("vague.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin:0;
+}
+
+header {
+    display: block;
+    padding-top: 25px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.nomSite {
+    font-family: 'Orbitron', sans-serif;
+    display: inline;
+    color: white;
+    font-size: 55px;
+    margin-left: 100px;
+}
+
+.icon {         /* All the icons in the header */
+    width: 45px;
+    float: right;
+    display: inline;
+}
+
+.recherche {    /* The research icon */
+    margin-top: 20px;
+}
+
+.panier {       /* The panier icon */    
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.navbar {       /* The navbar itself */  
+    display: inline-flex;
+    height: 49px;
+    list-style-type: none;
+}
+
+.navlink {      /* The links in the navbar */
+    color: white;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+
+.navlink:hover {
+    text-shadow: 2px 2px black;
+}
+
+#rectangle {
+    width: 30vw;
+    height: 7px;
+    background-color: white;
+    margin: auto;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 90px;
+    margin: 0px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.categories {
+    border-radius: 10px;
+    width: 80%;
+    padding: 30px;
+    background-color: #d9d9d9;
+    display: grid;
+    grid-template-areas: 
+        "planche    combis  leashs";
+    gap : 79px;
+    margin: auto;
+    justify-content: center;
+}
+
+.imgplanche:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.planche {
+    grid-area: planche;
+}
+
+.imgcombi:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.combi {
+    grid-area: combis;
+}
+
+.imgleash:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.leashs {
+    grid-area: leashs;
+}
+
+.vide {
+    width: 329px;
+}

@@ -1,0 +1,173 @@
+body {
+    background-image: url("vague.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin:0;
+}
+
+header {
+    display: block;
+    padding-top: 25px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.nomSite {
+    font-family: 'Orbitron', sans-serif;
+    display: inline;
+    color: white;
+    font-size: 55px;
+    margin-left: 100px;
+}
+
+.icon {         /* All the icons in the header */
+    width: 45px;
+    float: right;
+    display: inline;
+}
+
+.recherche {    /* The research icon */
+    margin-top: 20px;
+}
+
+.panier {       /* The panier icon */    
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar {       /* The navbar itself */  
+    display: inline-flex;
+    height: 49px;
+    list-style-type: none;
+}
+
+.navlink {      /* The links in the navbar */
+    color: white;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+
+.navlink:hover {
+    text-shadow: 2px 2px black;
+}
+
+#rectangle {
+    width: 30vw;
+    height: 7px;
+    background-color: white;
+    margin: auto;
+    margin-top: 0;
+}
+
+
+header+h2{
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 90px;
+    margin: 0px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.float{
+    float: left;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.white-container{
+    margin: 10px 5%;
+    padding: 50px 10px;
+    border-radius: 50px;
+    min-width: 1300px;
+    min-height: 750px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
+
+.chalky-container{
+    background-color: #FFFAFA;
+    flex-grow: 1;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.chalky-container *{
+    font-family: 'Josefin sans';
+}
+
+.chalky-container h2{
+    text-align: start;
+    margin: 0%;
+    font-size: 45px;
+}
+
+span{
+    font-size: 32px;
+}
+
+.quantity{
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.info-article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-article> *{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+form{
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.qty {
+    width: 40px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    border:transparent;
+}
+
+input.qtyplus, input.qtyminus{ 
+    width:25px; 
+    height:25px; 
+    font-size: 25px; 
+    font-weight: 300;
+    padding:0;}
+
+
+#valider{
+    align-self: flex-end;
+    position: absolute;
+    bottom: 20px;
+    background-color: #E2FF33;
+    border-radius: 30px;
+    font-size: 55px;
+    font-family: 'Jomhuria';
+    width: 275px;
+    height: 75px;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+}
+
+#valider:hover{
+    background-color: white;
+    box-shadow: inset 300px 0px 0 0 gold;
+    color: whitesmoke;
+}
+
+#valider:active{
+    color: peru;
+}
