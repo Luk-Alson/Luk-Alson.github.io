@@ -1,0 +1,203 @@
+body {
+    background-image: url("vague.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    padding-top: 17px;
+}
+
+.nomSite {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 64px;
+    display: inline;
+    margin-left: 375px;
+}
+
+.icon {         /* All the icons in the header */
+    width: 65px;
+    float: right;
+    margin-left: 35px;
+}
+
+.user {         /* The user icon */
+    width: 80px;
+}
+
+.recherche {    /* The research icon */
+    margin-top: 7px;
+}
+
+.panier {       /* The panier icon */    
+    margin-right: 35px;
+    margin-top: 7px;
+}
+
+.navbar {       /* The navbar itself */     
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 49px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.navlink {      /* The links in the navbar */
+    color: white;
+    display: inline;
+    font-family: 'Jomhuria', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: lightslategrey;
+}
+
+h3 {
+    font-family: 'Medula One', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.video {
+    width: 1189px;
+    margin: auto;
+    position: relative;
+}
+
+.thevideo {
+    width: 1189px;
+    height: 726px;
+    border-radius: 10px;
+}
+
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    left: 7%;
+}
+
+
+
+/* Bloc recommandations */
+
+.recommandations {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-areas: 
+        "titre titre"
+        "combi tempete"
+        "combi planche";
+    column-gap: 80px; 
+    row-gap: 20px;
+    grid-template-columns: 30% 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: 'Medula One', sans-serif;
+    font-size: 96px;
+    grid-area: titre;
+}
+
+.recom1 {
+    border-radius: 10px;
+    background-color: white;
+    padding: 60px;
+    grid-area: combi;
+}    
+
+.recom1:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.combi {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.labelcombi {
+    font-family: 'Laila', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recom2 {
+    height: 394px;
+    background-color: white;
+    border-radius: 10px;
+    grid-area: tempete;
+    margin-right: 80px;
+}
+
+.recom2:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.tempete {
+    height: 289px;
+    width: 100%;
+}
+
+.labeltempete {
+    font-family: 'Laila', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.recom3 {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-area: planche;
+    margin-right: 80px;
+}
+
+.recom3:hover {
+    box-shadow: 0px 5px 20px black;
+}
+
+.planche {
+    width: 240px;
+}
+
+.labelplanche {
+    font-family: 'Laila', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 55px;
+}
+
+#nbsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 2;
+    height: 40px;
+}
+
+i{
+    margin-right: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 30px;
+}
+
+i:hover{
+    align-self: flex-start;
+}
