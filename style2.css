@@ -66,6 +66,10 @@ header {
     margin-top: 0;
 }
 
+p {
+    text-align: center;
+}
+
 button {
     display: flex;
     align-items: center; 
